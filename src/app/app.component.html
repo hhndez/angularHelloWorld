@@ -1,0 +1,14 @@
+<div class="container border p-5 m-5">
+  <h1>{{title}}</h1>
+  <div class="row">
+      <p class="col-4">The button was clicked {{clicks}}times</p>
+      <p class="col-4">this is a 4 col width para</p>
+  </div>
+  <button (click)="someFunction()" class="btn btn-primary">click me</button>
+
+<app-user [name]="name" [role]="role" ></app-user>
+<button (click)="changeName()" class="btn btn-primary">Change name</button>
+
+  <app-song-list ></app-song-list>
+  <app-summary></app-summary>
+  </div>

@@ -1,0 +1,3 @@
+<li>{{song.title}} by {{song.artist | uppercase }} - {{song.votes}} : {{song.price | currency : "EUR" }} {{song.dateReleased | date: "yyyy/MM/dd"}}<button class="btn btn-info" (click)="handleVoteClick()">Vote</button>
+<span *ngIf="isTopSong">Top Song!</span>
+</li>

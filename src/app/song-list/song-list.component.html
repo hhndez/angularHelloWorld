@@ -1,0 +1,4 @@
+<ul>
+    <app-song-component 
+    *ngFor="let song of dataService.songs" [song]="song" (voteUp)="receiveVote($event)"></app-song-component>
+</ul>
